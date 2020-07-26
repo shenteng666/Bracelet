@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="480dp"
+    android:layout_height="437dp"
+    android:background="@android:color/transparent"
+    android:layout_marginLeft="62dp"
+    android:layout_marginTop="132dp"
+    android:gravity="center"
+    tools:context=".dialog.BindDialogFail">
+
+    <LinearLayout
+        android:id="@+id/LL_this"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:text="@string/list_dialog_name"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            />
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/history_info_table"
+            android:layout_width="450dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:text="是否佩戴"
+                android:textSize="12sp" >
+            </TextView>
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginLeft="70dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:text="温度"
+                android:textSize="12sp" >
+            </TextView>
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginLeft="90dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:text="日期"
+                android:textSize="12sp" >
+            </TextView>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginLeft="70dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:text="最后心跳时间"
+                android:textSize="12sp" >
+            </TextView>
+
+        </LinearLayout>
+
+<!--        <include layout="@layout/history_info_item"/>-->
+
+        <ListView
+            android:id="@+id/history_info_listview"
+            android:layout_width="450dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/dialog2_close"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/cancel"/>
+
+</RelativeLayout>

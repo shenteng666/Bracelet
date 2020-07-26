@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".activity.BindListActivity">
+    <include android:id="@+id/view_counter_buttons_1" layout="@layout/titlebar"/>
+    <!--搜索框-->
+    <include layout="@layout/searchbar" />
+    <LinearLayout
+        android:id="@+id/empty_list"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="231dp"
+            android:src="@drawable/blank"
+            />
+        <LinearLayout
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textColor="#333333"
+                android:text="@string/empty_choose"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textColor="#333333"
+                android:text="@string/empty_see"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/info_list"
+        android:layout_width="558dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="558dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="22dp"
+        android:orientation="horizontal">
+
+        <!--detail Tab-->
+        <TextView
+            android:id="@+id/all"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/bind_all"
+            android:textColor="@color/main_tab_text_color"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/unbind"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/un_bind"
+            android:textColor="@color/main_tab_text_color"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+    <include layout="@layout/table_b" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/bindViewPager"
+        android:layout_width="558dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

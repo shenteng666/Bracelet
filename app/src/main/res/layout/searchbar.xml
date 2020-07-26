@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#36353A"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner_info"
+            android:layout_width="477dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/shape_corner"
+            />
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="71dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="7dp"
+            android:drawableLeft="@drawable/search"
+            android:background="@drawable/shape_search"
+            android:textColor="#ffffff"
+            android:text="@string/search"
+            />
+        <!--        android:drawableLeft="@drawable/search"-->
+    </LinearLayout>
+</LinearLayout>

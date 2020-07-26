@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/list_num"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="2006360053"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/list_sname"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal"
+            android:text="王铁柱"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/list_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="男"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/list_date"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="2020-07-20"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/list_classnum"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="05级初一(1)班"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/list_time"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="24:00"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/list_wd"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="38.9℃"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/list_isd"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="是"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

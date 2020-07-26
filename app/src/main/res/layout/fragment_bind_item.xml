@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="558dp"
+    android:layout_marginLeft="22dp"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2006360053"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/sname"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="张三"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/sid"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="ZN2006360053SH"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/classn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="05级初一一班"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_height="31dp">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="60dp"
+            android:layout_height="31dp"
+            android:textSize="12sp"
+            android:background="#e8f4ff"
+            android:textColor="#3d95ff"
+            android:radius="4sp"
+            android:text="绑定设备"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

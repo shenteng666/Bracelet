@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerclass">
+        <item>初一(1)班</item>
+        <item>初一(2)班 </item>
+        <item>初一(3)班</item>
+        <item>初一(4)班</item>
+        <item>初二(1)班</item>
+        <item>初二(2)班</item>
+        <item>初二(3)班</item>
+        <item>初二(4)班</item>
+    </string-array>
+</resources>

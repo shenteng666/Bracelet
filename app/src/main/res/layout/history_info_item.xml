@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="430dp"
+    android:layout_marginLeft="25dp"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/is_wear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已佩戴"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/history_wd"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="37.9℃"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/history_date"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="2020-11-12"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/history_time"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="23:21"/>
+    </LinearLayout>
+
+</LinearLayout>
